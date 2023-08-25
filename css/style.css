@@ -60,12 +60,57 @@
 }
 
 /* ----------------------- */
-
 .card{
     width: 400px;
-    height: 450px;
+    background: var(--cor-secundaria);
+
 }
 
 .card-img figure img{
     width: 100%;
+}
+
+.card-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    color: #fff;
+}
+
+.card-conteudo{
+    text-align: justify;
+}
+
+section{
+    padding: 20px 50px;
+}
+
+.secao-dance {
+    background: var(--cor-primaria);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.cabecalho-secao{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.cabecalho-secao p {
+    text-align: justify;
+}
+
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
